@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="example.LoggedInController">
+    <Label fx:id="label_welcome" layoutX="239.0" layoutY="60.0" text="WELCOME !!!">
+        <font>
+            <Font name="Impact" size="25.0"/>
+        </font>
+    </Label>
+    <Label fx:id="label_fav_channel" layoutX="134.0" layoutY="158.0"
+           text="Your favourite youtube channel is carryminati ">
+        <font>
+            <Font name="MT Extra" size="18.0"/>
+        </font>
+    </Label>
+    <Button id="button_logout" fx:id="logout_button" layoutX="251.0" layoutY="248.0" mnemonicParsing="false"
+            prefHeight="14.0" prefWidth="95.0" style="-fx-background-color: #8B8000;" text="Logout">
+        <font>
+            <Font name="Georgia" size="16.0"/>
+        </font>
+    </Button>
+</AnchorPane>
